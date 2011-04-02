@@ -16,14 +16,18 @@ Gem::Specification.new do |s|
     "README.rdoc"
   ]
   s.files = [
+    "Gemfile",
+    "Gemfile.lock",
     "MIT-LICENSE",
     "README.rdoc",
     "Rakefile",
-    "generators/settings_migration/USAGE",
-    "generators/settings_migration/settings_migration_generator.rb",
-    "generators/settings_migration/templates/migration.rb",
+    "VERSION",
     "init.rb",
+    "lib/generators/settings_migration/USAGE",
+    "lib/generators/settings_migration/settings_migration_generator.rb",
+    "lib/generators/settings_migration/templates/migration.rb",
     "lib/settings.rb",
+    "rails3-settings.gemspec",
     "test/helper.rb",
     "test/settings_test.rb"
   ]

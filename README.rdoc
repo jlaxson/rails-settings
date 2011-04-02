@@ -13,7 +13,7 @@ Requirements:
   Rails 3.0.x
 
 You can add this gem in your Gemfile
-  gem 'rails-settings', :require => 'settings', :git => 'git://github.com/Magicdream/rails-settings.git'
+  gem 'rails3-settings', :require => 'settings', :git => 'git://github.com/Magicdream/rails-settings.git'
 
 You must create the table used by the Settings model.  Simply run this command:
   rails generate settings_migration
