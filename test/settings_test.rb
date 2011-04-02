@@ -1,4 +1,4 @@
-require 'test_helper'
+require 'helper'
 
 class SettingsTest < Test::Unit::TestCase
   setup_db

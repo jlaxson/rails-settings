@@ -10,10 +10,13 @@ arrays, or any object.
 == Setup
 
 Requirements:
-  Rails 2.3.x
+  Rails 3.0.x
+
+You can add this gem in your Gemfile
+  gem 'rails-settings', :require => 'settings', :git => 'git://github.com/Magicdream/rails-settings.git'
 
 You must create the table used by the Settings model.  Simply run this command:
-  ruby script/generate settings_migration
+  rails generate settings_migration
 
 Now just put that migration in the database with:
   rake db:migrate
