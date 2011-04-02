@@ -13,7 +13,7 @@ Requirements:
   Rails 3.0.x
 
 You can add this gem in your Gemfile
-  gem 'rails3-settings', '~> 1.0.0'
+  gem 'rails3-settings', '~> 1.0.0', :require => 'settings'
 
 You must create the table used by the Settings model.  Simply run this command:
   rails generate settings_migration
