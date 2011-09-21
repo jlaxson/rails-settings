@@ -22,8 +22,8 @@ Jeweler::Tasks.new do |gem|
   
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
-  gem.add_runtime_dependency 'activerecord', '~> 3.0.5'
-  gem.add_runtime_dependency 'activesupport', '~> 3.0.5'
+  gem.add_runtime_dependency 'activerecord'
+  gem.add_runtime_dependency 'activesupport'
    
   gem.add_development_dependency 'bundler', '~> 1.0.10'
   gem.add_development_dependency 'jeweler', '~> 1.5.2'

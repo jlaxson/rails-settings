@@ -4,14 +4,14 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{rails3-settings}
+  s.name = "rails3-settings"
   s.version = "1.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Squeegy", "Georg Ledermann ", "Mikhail Khomutetskiy"]
-  s.date = %q{2011-04-02}
-  s.description = %q{Settings is a plugin that makes managing a table of global key, value pairs easy. Think of it like a global Hash stored in you database, that uses simple ActiveRecord like methods for manipulation. Keep track of any global setting that you dont want to hard code into your rails app. You can store any kind of object. Strings, numbers, arrays, or any object.}
-  s.email = %q{khomutetskiy@gmail.com}
+  s.date = "2011-09-21"
+  s.description = "Settings is a plugin that makes managing a table of global key, value pairs easy. Think of it like a global Hash stored in you database, that uses simple ActiveRecord like methods for manipulation. Keep track of any global setting that you dont want to hard code into your rails app. You can store any kind of object. Strings, numbers, arrays, or any object."
+  s.email = "khomutetskiy@gmail.com"
   s.extra_rdoc_files = [
     "README.rdoc"
   ]
@@ -31,11 +31,11 @@ Gem::Specification.new do |s|
     "test/helper.rb",
     "test/settings_test.rb"
   ]
-  s.homepage = %q{http://github.com/Magicdream/rails-settings}
+  s.homepage = "http://github.com/Magicdream/rails-settings"
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.6.2}
-  s.summary = %q{Store application settings or user-settings in DB like key-value pairs}
+  s.rubygems_version = "1.8.10"
+  s.summary = "Store application settings or user-settings in DB like key-value pairs"
   s.test_files = [
     "test/helper.rb",
     "test/settings_test.rb"
@@ -45,31 +45,31 @@ Gem::Specification.new do |s|
     s.specification_version = 3
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
-      s.add_runtime_dependency(%q<activerecord>, ["~> 3.0.5"])
-      s.add_runtime_dependency(%q<activesupport>, ["~> 3.0.5"])
+      s.add_runtime_dependency(%q<activerecord>, [">= 0"])
+      s.add_runtime_dependency(%q<activesupport>, [">= 0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0.10"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.5.2"])
-      s.add_runtime_dependency(%q<activerecord>, ["~> 3.0.5"])
-      s.add_runtime_dependency(%q<activesupport>, ["~> 3.0.5"])
+      s.add_runtime_dependency(%q<activerecord>, [">= 0"])
+      s.add_runtime_dependency(%q<activesupport>, [">= 0"])
       s.add_development_dependency(%q<bundler>, ["~> 1.0.10"])
       s.add_development_dependency(%q<jeweler>, ["~> 1.5.2"])
     else
-      s.add_dependency(%q<activerecord>, ["~> 3.0.5"])
-      s.add_dependency(%q<activesupport>, ["~> 3.0.5"])
+      s.add_dependency(%q<activerecord>, [">= 0"])
+      s.add_dependency(%q<activesupport>, [">= 0"])
       s.add_dependency(%q<bundler>, ["~> 1.0.10"])
       s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
-      s.add_dependency(%q<activerecord>, ["~> 3.0.5"])
-      s.add_dependency(%q<activesupport>, ["~> 3.0.5"])
+      s.add_dependency(%q<activerecord>, [">= 0"])
+      s.add_dependency(%q<activesupport>, [">= 0"])
       s.add_dependency(%q<bundler>, ["~> 1.0.10"])
       s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
     end
   else
-    s.add_dependency(%q<activerecord>, ["~> 3.0.5"])
-    s.add_dependency(%q<activesupport>, ["~> 3.0.5"])
+    s.add_dependency(%q<activerecord>, [">= 0"])
+    s.add_dependency(%q<activesupport>, [">= 0"])
     s.add_dependency(%q<bundler>, ["~> 1.0.10"])
     s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
-    s.add_dependency(%q<activerecord>, ["~> 3.0.5"])
-    s.add_dependency(%q<activesupport>, ["~> 3.0.5"])
+    s.add_dependency(%q<activerecord>, [">= 0"])
+    s.add_dependency(%q<activesupport>, [">= 0"])
     s.add_dependency(%q<bundler>, ["~> 1.0.10"])
     s.add_dependency(%q<jeweler>, ["~> 1.5.2"])
   end
