@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = "rails3-settings"
-  s.version = "1.0.0"
+  s.version = "1.0.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Squeegy", "Georg Ledermann ", "Mikhail Khomutetskiy"]
-  s.date = "2011-09-21"
+  s.date = "2011-10-10"
   s.description = "Settings is a plugin that makes managing a table of global key, value pairs easy. Think of it like a global Hash stored in you database, that uses simple ActiveRecord like methods for manipulation. Keep track of any global setting that you dont want to hard code into your rails app. You can store any kind of object. Strings, numbers, arrays, or any object."
   s.email = "khomutetskiy@gmail.com"
   s.extra_rdoc_files = [
